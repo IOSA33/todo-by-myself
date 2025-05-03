@@ -1,0 +1,40 @@
+.nav-bar {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5em;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    font-size: large;
+}
+
+.app-div {
+    max-width: 62.5rem;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar a {
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+a.active {
+  color: rgb(210, 135, 135);
+}
+
+.todo-list {
+    list-style: none;
+}
